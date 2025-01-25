@@ -1,0 +1,16 @@
+.bar-chart-container {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 1rem;
+}
+
+.chart-area {
+  min-height: 300px;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

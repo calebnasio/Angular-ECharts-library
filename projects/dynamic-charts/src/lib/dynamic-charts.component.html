@@ -1,0 +1,18 @@
+<div class="dynamic-charts">
+  <ng-container [ngSwitch]="chartType">
+    <lib-pie-chart
+      *ngSwitchCase="'pie-chart'"
+      [title]="title"
+      [data]="data"
+      [labels]="labels"
+      [colors]="colors">
+    </lib-pie-chart>
+
+    <lib-bar-chart
+      *ngSwitchCase="'bar-chart'"
+      [title]="title"
+      [data]="data"
+      [labels]="labels">
+    </lib-bar-chart>
+  </ng-container>
+</div>
